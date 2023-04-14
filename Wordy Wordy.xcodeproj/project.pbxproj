@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C2C88DF329E6CCC0008DDCA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C88DF229E6CCC0008DDCA6 /* AppDelegate.swift */; };
 		C2C88DF529E6CCC0008DDCA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C88DF429E6CCC0008DDCA6 /* SceneDelegate.swift */; };
-		C2C88DF729E6CCC0008DDCA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C88DF629E6CCC0008DDCA6 /* ViewController.swift */; };
+		C2C88DF729E6CCC0008DDCA6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C88DF629E6CCC0008DDCA6 /* HomeViewController.swift */; };
 		C2C88DFA29E6CCC0008DDCA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C88DF829E6CCC0008DDCA6 /* Main.storyboard */; };
 		C2C88DFD29E6CCC0008DDCA6 /* Wordy_Wordy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2C88DFB29E6CCC0008DDCA6 /* Wordy_Wordy.xcdatamodeld */; };
 		C2C88DFF29E6CCC1008DDCA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C88DFE29E6CCC1008DDCA6 /* Assets.xcassets */; };
@@ -17,6 +17,11 @@
 		C2C88E0D29E6CCC1008DDCA6 /* Wordy_WordyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C88E0C29E6CCC1008DDCA6 /* Wordy_WordyTests.swift */; };
 		C2C88E1729E6CCC1008DDCA6 /* Wordy_WordyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C88E1629E6CCC1008DDCA6 /* Wordy_WordyUITests.swift */; };
 		C2C88E1929E6CCC1008DDCA6 /* Wordy_WordyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C88E1829E6CCC1008DDCA6 /* Wordy_WordyUITestsLaunchTests.swift */; };
+		C2C88E2629E6CD84008DDCA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2C88E2529E6CD84008DDCA6 /* GoogleService-Info.plist */; };
+		C2C88E2929E6CEBC008DDCA6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C2C88E2829E6CEBC008DDCA6 /* FirebaseAnalytics */; };
+		C2C88E2B29E6D86B008DDCA6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C2C88E2A29E6D86B008DDCA6 /* .gitignore */; };
+		C2D5562C29E98FF200C80B72 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D5562B29E98FF200C80B72 /* SettingsViewController.swift */; };
+		C2D5562F29E9907400C80B72 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D5562E29E9907400C80B72 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +45,7 @@
 		C2C88DEF29E6CCC0008DDCA6 /* Wordy Wordy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wordy Wordy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C88DF229E6CCC0008DDCA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2C88DF429E6CCC0008DDCA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C2C88DF629E6CCC0008DDCA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2C88DF629E6CCC0008DDCA6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C2C88DF929E6CCC0008DDCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2C88DFC29E6CCC0008DDCA6 /* Wordy_Wordy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wordy_Wordy.xcdatamodel; sourceTree = "<group>"; };
 		C2C88DFE29E6CCC1008DDCA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,10 @@
 		C2C88E1229E6CCC1008DDCA6 /* Wordy WordyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wordy WordyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C88E1629E6CCC1008DDCA6 /* Wordy_WordyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wordy_WordyUITests.swift; sourceTree = "<group>"; };
 		C2C88E1829E6CCC1008DDCA6 /* Wordy_WordyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wordy_WordyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2C88E2529E6CD84008DDCA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C2C88E2A29E6D86B008DDCA6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C2D5562B29E98FF200C80B72 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C2D5562E29E9907400C80B72 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C88E2929E6CEBC008DDCA6 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,7 @@
 		C2C88DE629E6CCC0008DDCA6 = {
 			isa = PBXGroup;
 			children = (
+				C2C88E2A29E6D86B008DDCA6 /* .gitignore */,
 				C2C88DF129E6CCC0008DDCA6 /* Wordy Wordy */,
 				C2C88E0B29E6CCC1008DDCA6 /* Wordy WordyTests */,
 				C2C88E1529E6CCC1008DDCA6 /* Wordy WordyUITests */,
@@ -101,12 +112,15 @@
 		C2C88DF129E6CCC0008DDCA6 /* Wordy Wordy */ = {
 			isa = PBXGroup;
 			children = (
+				C2D5562D29E9906300C80B72 /* Commons */,
+				C2D5562A29E98FD000C80B72 /* Models */,
+				C2D5562929E98FC800C80B72 /* Views */,
+				C2D5562829E98FBE00C80B72 /* Controllers */,
+				C2C88E2529E6CD84008DDCA6 /* GoogleService-Info.plist */,
 				C2C88DF229E6CCC0008DDCA6 /* AppDelegate.swift */,
 				C2C88DF429E6CCC0008DDCA6 /* SceneDelegate.swift */,
-				C2C88DF629E6CCC0008DDCA6 /* ViewController.swift */,
-				C2C88DF829E6CCC0008DDCA6 /* Main.storyboard */,
-				C2C88DFE29E6CCC1008DDCA6 /* Assets.xcassets */,
 				C2C88E0029E6CCC1008DDCA6 /* LaunchScreen.storyboard */,
+				C2C88DFE29E6CCC1008DDCA6 /* Assets.xcassets */,
 				C2C88E0329E6CCC1008DDCA6 /* Info.plist */,
 				C2C88DFB29E6CCC0008DDCA6 /* Wordy_Wordy.xcdatamodeld */,
 			);
@@ -130,6 +144,38 @@
 			path = "Wordy WordyUITests";
 			sourceTree = "<group>";
 		};
+		C2D5562829E98FBE00C80B72 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2C88DF629E6CCC0008DDCA6 /* HomeViewController.swift */,
+				C2D5562B29E98FF200C80B72 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C2D5562929E98FC800C80B72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2C88DF829E6CCC0008DDCA6 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2D5562A29E98FD000C80B72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C2D5562D29E9906300C80B72 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				C2D5562E29E9907400C80B72 /* Colors.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +192,9 @@
 			dependencies = (
 			);
 			name = "Wordy Wordy";
+			packageProductDependencies = (
+				C2C88E2829E6CEBC008DDCA6 /* FirebaseAnalytics */,
+			);
 			productName = "Wordy Wordy";
 			productReference = C2C88DEF29E6CCC0008DDCA6 /* Wordy Wordy.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +267,9 @@
 				Base,
 			);
 			mainGroup = C2C88DE629E6CCC0008DDCA6;
+			packageReferences = (
+				C2C88E2729E6CEBC008DDCA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = C2C88DF029E6CCC0008DDCA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,7 +286,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C88E2B29E6D86B008DDCA6 /* .gitignore in Resources */,
 				C2C88E0229E6CCC1008DDCA6 /* LaunchScreen.storyboard in Resources */,
+				C2C88E2629E6CD84008DDCA6 /* GoogleService-Info.plist in Resources */,
 				C2C88DFF29E6CCC1008DDCA6 /* Assets.xcassets in Resources */,
 				C2C88DFA29E6CCC0008DDCA6 /* Main.storyboard in Resources */,
 			);
@@ -261,9 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2C88DF729E6CCC0008DDCA6 /* ViewController.swift in Sources */,
+				C2C88DF729E6CCC0008DDCA6 /* HomeViewController.swift in Sources */,
+				C2D5562F29E9907400C80B72 /* Colors.swift in Sources */,
 				C2C88DFD29E6CCC0008DDCA6 /* Wordy_Wordy.xcdatamodeld in Sources */,
 				C2C88DF329E6CCC0008DDCA6 /* AppDelegate.swift in Sources */,
+				C2D5562C29E98FF200C80B72 /* SettingsViewController.swift in Sources */,
 				C2C88DF529E6CCC0008DDCA6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,8 +503,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,9 +513,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shinilheo.Wordy-Wordy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -475,8 +535,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,9 +545,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shinilheo.Wordy-Wordy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -606,6 +670,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C2C88E2729E6CEBC008DDCA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C2C88E2829E6CEBC008DDCA6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2C88E2729E6CEBC008DDCA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		C2C88DFB29E6CCC0008DDCA6 /* Wordy_Wordy.xcdatamodeld */ = {
