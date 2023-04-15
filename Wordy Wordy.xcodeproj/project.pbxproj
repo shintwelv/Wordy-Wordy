@@ -101,12 +101,12 @@
 		C2C88DF129E6CCC0008DDCA6 /* Wordy Wordy */ = {
 			isa = PBXGroup;
 			children = (
+				C2D5563529EA9E8E00C80B72 /* Models */,
+				C2D5563129EA9E6700C80B72 /* Views */,
+				C2D5563029EA9E6100C80B72 /* Controllers */,
 				C2C88DF229E6CCC0008DDCA6 /* AppDelegate.swift */,
 				C2C88DF429E6CCC0008DDCA6 /* SceneDelegate.swift */,
-				C2C88DF629E6CCC0008DDCA6 /* ViewController.swift */,
-				C2C88DF829E6CCC0008DDCA6 /* Main.storyboard */,
 				C2C88DFE29E6CCC1008DDCA6 /* Assets.xcassets */,
-				C2C88E0029E6CCC1008DDCA6 /* LaunchScreen.storyboard */,
 				C2C88E0329E6CCC1008DDCA6 /* Info.plist */,
 				C2C88DFB29E6CCC0008DDCA6 /* Wordy_Wordy.xcdatamodeld */,
 			);
@@ -128,6 +128,30 @@
 				C2C88E1829E6CCC1008DDCA6 /* Wordy_WordyUITestsLaunchTests.swift */,
 			);
 			path = "Wordy WordyUITests";
+			sourceTree = "<group>";
+		};
+		C2D5563029EA9E6100C80B72 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2C88DF629E6CCC0008DDCA6 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C2D5563129EA9E6700C80B72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2C88E0029E6CCC1008DDCA6 /* LaunchScreen.storyboard */,
+				C2C88DF829E6CCC0008DDCA6 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2D5563529EA9E8E00C80B72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
